@@ -77,6 +77,38 @@ Apply the services and check service
 Verify by opening external ip in browser
 <img width="1912" height="783" alt="image" src="https://github.com/user-attachments/assets/19378668-049f-4363-b59c-8dab2c447a7f" />
 
-Create the deployment and service yaml file in ec2 and push 
+Create the deployment and service yaml file in ec2 change the remote to own github url and push
+<img width="1916" height="391" alt="image" src="https://github.com/user-attachments/assets/70bebb75-d9cf-48dc-871b-e2e6feefdef4" />
+<img width="1432" height="730" alt="image" src="https://github.com/user-attachments/assets/64654adb-b36e-461a-bd9b-2fdd50952273" />
 
+Create buildspec.yml and push to git
+<img width="1913" height="667" alt="image" src="https://github.com/user-attachments/assets/739173e3-6008-43b2-aa9e-2e62ab5ba8eb" />
+<img width="1913" height="576" alt="image" src="https://github.com/user-attachments/assets/cf4f74c0-3831-4448-b01e-616082fa78d4" />
 
+Create an IAM Role for CodeBuild AmazonEC2ContainerRegistryFullAccess,AmazonEKSClusterPolicy,CloudWatchLogsFullAccess,AmazonS3ReadOnlyAccess
+<img width="1906" height="730" alt="image" src="https://github.com/user-attachments/assets/62724b2a-2f8d-4379-bf41-cfad1eafd23e" />
+<img width="1876" height="793" alt="image" src="https://github.com/user-attachments/assets/679db77c-91a2-45d8-ac85-2c62a083ae6e" />
+
+Create a CodeBuild Project 
+<img width="1883" height="840" alt="image" src="https://github.com/user-attachments/assets/de163a05-6c2f-4fda-b996-689cb30da9db" />
+<img width="1897" height="837" alt="image" src="https://github.com/user-attachments/assets/09a75a66-6d9a-4b2d-b4b0-0a258168a69f" />
+<img width="1335" height="66" alt="image" src="https://github.com/user-attachments/assets/3d043755-e112-4135-a438-a40cd90e478d" />
+<img width="1506" height="696" alt="image" src="https://github.com/user-attachments/assets/370bc2bb-a378-42cd-9ea1-4e32a91ecce9" />
+<img width="1903" height="788" alt="image" src="https://github.com/user-attachments/assets/f8bba60c-4110-4e46-9b39-792cdc646f66" />
+
+Add Docker Hub Credentials in envbiromwent variable 
+<img width="1660" height="482" alt="image" src="https://github.com/user-attachments/assets/2c0534e2-71e5-4e95-bbff-03dac9b886cd" />
+
+Start a Build
+<img width="1901" height="808" alt="image" src="https://github.com/user-attachments/assets/ece8772d-8077-4b52-8094-6f25ec58f6ee" />
+
+Create CodePipeline
+<img width="1898" height="802" alt="image" src="https://github.com/user-attachments/assets/a933eb92-0173-4a97-b90e-5219b4ddbb3c" />
+
+Pipeline Settings
+
+<img width="1878" height="795" alt="image" src="https://github.com/user-attachments/assets/a626ef57-2982-428f-93ea-43f09596d6e2" />
+
+Build  Stage
+
+<img width="1230" height="717" alt="image" src="https://github.com/user-attachments/assets/53665cb0-af01-4036-9ee7-20231e13cd49" />
