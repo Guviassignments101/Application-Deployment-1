@@ -47,7 +47,36 @@ Login to Docker Hub and push the images to docker repo
 <img width="1908" height="393" alt="image" src="https://github.com/user-attachments/assets/dd4e2f7d-c78c-448e-9356-53a601da9b19" />
 <img width="1222" height="603" alt="image" src="https://github.com/user-attachments/assets/a92a38db-9dc7-4a74-9502-5be0c89de035" />
 
-Install AWS CLI 
+Configure AWS CLI 
 <img width="1906" height="336" alt="image" src="https://github.com/user-attachments/assets/032a09d7-bfd1-4517-ba14-69f8c0b90d1a" />
+
+Install and verify kubectl and eksctl
+<img width="1917" height="322" alt="image" src="https://github.com/user-attachments/assets/f6108763-f477-48be-a6ef-97d494e4b499" />
+
+Create Cluster
+<img width="1862" height="538" alt="image" src="https://github.com/user-attachments/assets/fc1f6f3a-9f9a-4670-ab78-851b953d5465" />
+
+Verify Cluster
+<img width="1906" height="310" alt="image" src="https://github.com/user-attachments/assets/5ed89c07-2d52-4e1e-a04f-f776c27d764f" />
+
+Pull docker images 
+<img width="1906" height="398" alt="image" src="https://github.com/user-attachments/assets/070e2036-fb7f-48ec-bf7f-858e67651581" />
+
+Create deployment.yaml file and service.yaml file
+<img width="1902" height="827" alt="image" src="https://github.com/user-attachments/assets/d08cd41f-b127-47c9-aab6-df1d345f071a" />
+<img width="1917" height="727" alt="image" src="https://github.com/user-attachments/assets/76edc14b-2148-4bc9-bc75-d1c1510c8ec7" />
+
+
+Apply the Deployment check the pods
+
+<img width="1906" height="136" alt="image" src="https://github.com/user-attachments/assets/1c27db72-0414-49dd-8b51-78a2ad6c8969" />
+
+Apply the services and check service
+<img width="952" height="131" alt="image" src="https://github.com/user-attachments/assets/79b35b8c-f959-427e-b0d1-839a17f66b3c" />
+
+Verify by opening external ip in browser
+<img width="1912" height="783" alt="image" src="https://github.com/user-attachments/assets/19378668-049f-4363-b59c-8dab2c447a7f" />
+
+Create the deployment and service yaml file in ec2 and push 
 
 
