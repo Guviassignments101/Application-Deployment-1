@@ -28,6 +28,9 @@ Public URL (AWS ELB)
 End Users / Browser
 
 
+<img width="1467" height="562" alt="image" src="https://github.com/user-attachments/assets/36e22c77-9085-4959-928f-3cfc73b484ff" />
+
+
 
 Launch Ubuntu EC2
 Ubuntu 24.04
