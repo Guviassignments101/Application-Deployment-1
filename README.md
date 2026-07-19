@@ -1,11 +1,33 @@
 # Application-Deployment-1
-The goal is to automate the deployment of a React application.  
-1.Cloning code 
-2.Building the application 
-3.Creating Docker image 
-4.Uploading Docker image
-5.Deploying Kubernetes  
-6.Everything should happen automatically whenever you push code to GitHub.
+GitHub (Source)
+│
+▼
+CodePipeline
+│
+├── Source Stage  → Pulls code via GitHub App connection
+│
+├── Build Stage    → CodeBuild: docker build → push to Docker Hub
+│
+├── Test Stage     → CodeBuild: runs test/validation steps
+│
+└── Deploy Stage   → CodeBuild: kubectl apply → Amazon EKS
+│
+▼
+EKS Cluster (brain-cluster)
+│
+┌───────────┴───────────┐
+▼                       ▼
+Deployment (2 pods)      Service (LoadBalancer)
+brain-task-deployment    brain-task-service
+│                       │
+└───────────┬───────────┘
+▼
+Public URL (AWS ELB)
+│
+▼
+End Users / Browser
+
+
 
 Launch Ubuntu EC2
 Ubuntu 24.04
@@ -135,6 +157,7 @@ install the CloudWatch Observability add-on and verify
 
 App logs 
 
+<img width="1748" height="196" alt="image" src="https://github.com/user-attachments/assets/0c0fb9ed-cdb2-46ba-8256-dadf0abb7027" />
 <img width="1866" height="813" alt="image" src="https://github.com/user-attachments/assets/ed396143-8447-4e26-b9f5-75b57e6c3299" />
 <img width="1657" height="625" alt="image" src="https://github.com/user-attachments/assets/00c64f77-466f-4ae7-b131-836ffa6c4e82" />
 <img width="1737" height="762" alt="image" src="https://github.com/user-attachments/assets/aaed3db0-e121-4e15-99c2-0d5539460fd7" />
