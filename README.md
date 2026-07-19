@@ -107,8 +107,14 @@ Create CodePipeline
 
 Pipeline Settings
 
+
+<img width="1903" height="722" alt="image" src="https://github.com/user-attachments/assets/2a1e96eb-f922-44f9-9e96-6ad9230f0431" />
+
+
 <img width="1878" height="795" alt="image" src="https://github.com/user-attachments/assets/a626ef57-2982-428f-93ea-43f09596d6e2" />
 
-Build  Stage
+Code Pipeline
 
 <img width="1230" height="717" alt="image" src="https://github.com/user-attachments/assets/53665cb0-af01-4036-9ee7-20231e13cd49" />
+<img width="1893" height="713" alt="image" src="https://github.com/user-attachments/assets/6d8a4b41-7d16-4f51-b29d-03eacc1ee1ab" />
+<img width="1091" height="115" alt="image" src="https://github.com/user-attachments/assets/062bb22c-7e94-4195-9585-9a8e9450fe1c" />
