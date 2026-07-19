@@ -119,3 +119,27 @@ Code Pipeline
 <img width="1893" height="713" alt="image" src="https://github.com/user-attachments/assets/6d8a4b41-7d16-4f51-b29d-03eacc1ee1ab" />
 <img width="1091" height="115" alt="image" src="https://github.com/user-attachments/assets/062bb22c-7e94-4195-9585-9a8e9450fe1c" />
 <img width="1902" height="822" alt="image" src="https://github.com/user-attachments/assets/ef20273d-bb85-4233-b3eb-398830408051" />
+
+
+Monitoring: Use CloudWatch Logs to track build, deploy
+
+<img width="1872" height="866" alt="image" src="https://github.com/user-attachments/assets/b408f8ee-2da7-4fd5-acec-3e63297716b7" />
+<img width="1547" height="713" alt="image" src="https://github.com/user-attachments/assets/8c0fd17d-6e2f-4d4e-b426-69afeb8e20f1" />
+
+Application Logs
+
+install the CloudWatch Observability add-on and verify
+<img width="1066" height="412" alt="image" src="https://github.com/user-attachments/assets/4094b6b5-5dce-4a60-bea2-01f71cdd664f" />
+<img width="1021" height="153" alt="image" src="https://github.com/user-attachments/assets/02d6b9b1-ffc5-4d32-9db9-4f6e95a076d6" />
+<img width="1300" height="105" alt="image" src="https://github.com/user-attachments/assets/6d3ed56a-4723-4b37-9cfb-34c182d66c7f" />
+
+App logs 
+
+<img width="1866" height="813" alt="image" src="https://github.com/user-attachments/assets/ed396143-8447-4e26-b9f5-75b57e6c3299" />
+<img width="1657" height="625" alt="image" src="https://github.com/user-attachments/assets/00c64f77-466f-4ae7-b131-836ffa6c4e82" />
+<img width="1737" height="762" alt="image" src="https://github.com/user-attachments/assets/aaed3db0-e121-4e15-99c2-0d5539460fd7" />
+<img width="1746" height="743" alt="image" src="https://github.com/user-attachments/assets/1e5bf70c-a416-442b-8992-ec8161a5db3a" />
+<img width="1677" height="653" alt="image" src="https://github.com/user-attachments/assets/319d0767-7348-4e3c-8806-1e36cd1b449f" />
+
+
+
